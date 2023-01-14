@@ -1,0 +1,106 @@
+body {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  background-color: gray;
+}
+.container {
+  display: grid;
+  width: 320px;
+  height: 568px;
+  grid-template-rows: 44px 180px;
+  background-color: #fafafa;
+  margin-top: 50px;
+  border-radius: 20px 20px 0px 0px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+.header > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 13px 11px 0px -20px;
+}
+.header > ul > li {
+  display: grid;
+  grid-template-columns: 1, 300px;
+  padding-right: 6px;
+}
+.main {
+  display: grid;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+.main > p {
+  font-size: 24px;
+  margin: 80px 24px 0px 0px;
+}
+.main > p > span {
+  padding: 6px;
+}
+.main > h1 {
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 20px;
+  padding-left: 26px;
+  margin-top: 16px;
+}
+.calculator {
+  display: grid;
+  align-items: center;
+}
+.calculator > ul {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  list-style-type: none;
+  padding-top: 34px;
+  padding-left: 50px;
+  background-color: #e9f6ff;
+  border-radius: 0px 0px 20px 20px;
+}
+.calculator > ul > li {
+  font-size: 24.4828px;
+  display: grid;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.calculator > ul > li > p {
+  margin: 0px;
+}
+.blue {
+  color: #00b0d7;
+}
+.red {
+  color: #ff6060;
+}
+.container_one {
+  display: grid;
+  width: 320px;
+  height: 568px;
+  grid-template-rows: 44px 180px;
+  background-color: #00223a;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.container_one > .header {
+  background-color: #000000;
+  color: #fafafa;
+}
+.container_one > .main {
+  background-color: #00223a;
+}
+.container_one > .main > p {
+  color: #ffffff;
+}
+.container_one > .main > h1 {
+  color: #ffffff;
+}
+.container_one > .calculator > ul {
+  background-color: #001b2f;
+}
